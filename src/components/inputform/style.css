@@ -1,0 +1,34 @@
+form {
+  font-size: 13px;
+  background-color: #c5cae9;
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.inputbox {
+  margin-left: 20px;
+}
+.titleinput {
+  margin-left: 35px;
+}
+.bodyinput {
+  margin: 0 60px 0 20px;
+}
+.addbtn {
+  padding: 5px 10px 4px 10px;
+  background-color: #f8fdff;
+  border: solid 1px #7986cb;
+  border-radius: 15px;
+  color: #7986cb;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.addbtn:hover {
+  background-color: #7986cb;
+  border: solid 1px #f8fdff;
+  color: #f8fdff;
+}

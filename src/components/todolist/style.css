@@ -1,0 +1,33 @@
+div.list-container {
+  width: 550px;
+  height: 500px;
+  margin-top: 20px;
+}
+
+div.todo-container {
+  width: 550px;
+  height: auto;
+  background-color: #cdd2f0;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+div.done-container {
+  width: 550px;
+  height: auto;
+  background-color: #cdd2f0;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+.list-title {
+  width: 100%;
+  height: 30px;
+  background-color: #9499b7;
+}
+
+h3 {
+  margin: 7px;
+}
