@@ -3,7 +3,7 @@ import TodoItem from "../todoitem/todoitem";
 import "./style.css";
 function TodoList({ todos, onDone, onDel }) {
   return (
-    <>
+    <div className="list-wrap">
       <div className="list-title">
         <h3>🐣 Todo List</h3>
       </div>
@@ -24,7 +24,7 @@ function TodoList({ todos, onDone, onDel }) {
             <TodoItem todo={todo} key={todo.id} onDone={onDone} onDel={onDel} />
           ))}
       </div>
-    </>
+    </div>
   );
 }
 
