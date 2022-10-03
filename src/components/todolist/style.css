@@ -1,5 +1,5 @@
 div.todo-container {
-  width: 550px;
+  width: 800px;
   height: auto;
   background-color: #cdd2f0;
   display: flex;
@@ -8,7 +8,7 @@ div.todo-container {
 }
 
 div.done-container {
-  width: 550px;
+  width: 800px;
   height: auto;
   background-color: #cdd2f0;
   display: flex;
@@ -18,10 +18,11 @@ div.done-container {
 
 .list-title {
   width: 100%;
-  height: 30px;
+  height: 50px;
   background-color: #9499b7;
 }
 
-h3 {
+h2 {
   margin: 7px;
+  font-size: 30px;
 }

@@ -6,13 +6,13 @@ import "./style.css";
 function Layout() {
   const [todos, setTodos] = useState([
     {
-      id: 0,
+      id: 1,
       title: "공부하기",
       body: "공부를 열심히 하자 ;-;",
       isDone: false,
     },
     {
-      id: 1,
+      id: 2,
       title: "뚜비랑놀기",
       body: "뚜비랑 놀장! >.<",
       isDone: true,

@@ -5,7 +5,7 @@ function TodoList({ todos, onDone, onDel }) {
   return (
     <div className="list-wrap">
       <div className="list-title">
-        <h3>🐣 Todo List</h3>
+        <h2>🐣 Todo List</h2>
       </div>
       <div className="todo-container">
         {todos
@@ -15,7 +15,7 @@ function TodoList({ todos, onDone, onDel }) {
           ))}
       </div>
       <div className="list-title">
-        <h3>🐥 Done List</h3>
+        <h2>🐥 Done List</h2>
       </div>
       <div className="done-container">
         {todos
