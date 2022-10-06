@@ -35,7 +35,14 @@ function Layout() {
 
   const onSubmitHandler = (e) => {
     e.preventDefault();
-    if (!input.title || !input.body) return;
+    if (!title) {
+      alert("제목을 입력하세요!");
+      return;
+    } else if (!body) {
+      alert("내용을 입력하세요!");
+      return;
+    }
+
     const num = todos.length;
     const todo = {
       id: num + 1,
