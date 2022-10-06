@@ -1,5 +1,5 @@
 import React from "react";
-import TodoItem from "../todoitem/todoitem";
+import TodoItem from "../todo/Todo";
 import "./style.css";
 function TodoList({ todos, onDone, onDel }) {
   return (

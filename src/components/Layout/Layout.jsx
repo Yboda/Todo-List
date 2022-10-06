@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import TodoInput from "../inputform/inputform";
-import TodoList from "../todolist/todolist";
+import TodoInput from "../form/Form";
+import TodoList from "../list/List";
 import "./style.css";
 
 function Layout() {
@@ -42,7 +42,6 @@ function Layout() {
       alert("내용을 입력하세요!");
       return;
     }
-
     const num = todos.length;
     const todo = {
       id: num + 1,
